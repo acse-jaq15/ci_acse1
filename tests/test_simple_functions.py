@@ -26,9 +26,9 @@ class TestSimpleFunctions(object):
         assert answer == expected
 
     @pytest.mark.parametrize('number, expected', [
-        (3, 0.1411),
-        (2, 0.9093),
-        (1, 0.8415)
+        (3, 0.14112000785871492),
+        (2, 0.909297426825641),
+        (1, 0.8414709848078965
     ])
     def test_sin_approx(self, number, expected):
         '''Test our factorial function'''

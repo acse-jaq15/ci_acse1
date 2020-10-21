@@ -31,6 +31,6 @@ class TestSimpleFunctions(object):
         (1, 0.8414709848078965)
     ])
     def test_sin_approx(self, number, expected):
-        '''Test our factorial function'''
+        '''Test our sin_approx function'''
         answer = sin_approx(number)
         assert answer == expected
